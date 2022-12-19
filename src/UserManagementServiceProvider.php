@@ -2,9 +2,9 @@
 
 namespace Fatkhur_rohman\UserManagement;
 
+use Fatkhur_rohman\UserManagement\Commands\UserManagementCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Fatkhur_rohman\UserManagement\Commands\UserManagementCommand;
 
 class UserManagementServiceProvider extends PackageServiceProvider
 {
