@@ -2,9 +2,9 @@
 
 namespace Fatkhur_rohman\UserManagement\Tests;
 
+use Fatkhur_rohman\UserManagement\UserManagementServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Fatkhur_rohman\UserManagement\UserManagementServiceProvider;
 
 class TestCase extends Orchestra
 {
